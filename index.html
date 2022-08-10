@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <meta charset="UFT-8">
-    <title>help Remo!</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>A fantastical adventure</title>
 </head>
-
 <body>
-<h1>
-    Calculator
-</h1>
-<input type="number">
+  <h1>Fill in the blanks to write your story!</h1>
+  <form>
+    <label for="person1Input">A name</label>
+    <input id="person1Input" type="text" name="person1Input">
+    <label for="person2Input">Another name</label>
+    <input id="person2Input" type="text" name="person2Input">
+    <label for="animalInput">An animal</label>
+    <input id="animalInput" type="text" name="animalInput">
+    <label for="exclamationInput">An exclamation</label>
+    <input id="exclamationInput" type="text" name="exclamationInput">
+    <label for="verbInput">A past tense verb</label>
+    <input id="verbInput" type="text" name="verbInput">
+    <label for="nounInput">A noun</label>
+    <input id="nounInput" type="text" name="nounInput">
+    <button type="submit">Show me the story!</button>
+  </form>
 
+  <div id="story" class="hidden">
+    <h1>A Fantastical Adventure</h1>
+    <p>
+      One day, <span id="person1a">_________</span> and <span id="person2a">_________</span> were walking through the woods, when suddenly a giant <span id="animal">_________</span> appeared. "<span id="exclamation">_________</span>", <span id="person1b">_________</span> cried. The two of them <span id="verb">_________</span> as quickly possible, and when they were safe, <span id="person1c">_________</span> and <span id="person2b">_________</span> gave each other a giant <span id="noun">_________</span>.
+    </p>
+  </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-
-
-
 </html>
